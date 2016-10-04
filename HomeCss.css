@@ -1,0 +1,224 @@
+   /* CSS */	
+
+html body {
+    min-height: 100%
+}
+
+* {
+    margin:0;
+    padding:0
+}
+
+body{min-height: 100vh;}
+ 
+ 
+   /* NAVIGATION BAR*/
+    
+nav {
+  height: 40px;
+  width: 100%;
+  background: #455868;
+  font-size: 11pt;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 2px solid #283744;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+nav a {
+  color: #fff;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+nav li a {
+  border-right: 1px solid #576979;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+  border-right: 0;
+}
+
+nav a:hover, nav a:active {
+  background-color: #8c99a4;
+}
+
+nav a#pull {
+  display: none;
+} 
+
+
+
+
+/*Parallax Css*/
+
+    /*div class container.fluid*/
+/*       
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}*/
+
+    /*BACKGROUND HORSE PHOTO TRANSPARANT*/ 
+
+body{
+    background-image: url("Horse1234.png");
+    background-size: auto;
+    min-height: 500px;
+    position: relative;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+
+ /*   FIRST SCROLLING GREEN BAR*/
+    
+#content{
+    width: 100%;
+    height: 20em;
+    margin-top: 35%;
+    background: rgb(255, 128, 213);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/*    SECOND SCROLLING BLUE BAR 
+*/
+#secondContent{
+    width: 100%;
+    height: 20em;
+    margin-top: 30%;
+    background: rgb(153, 194, 255);
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+
+
+    /*FIRST SCROLL BAR CONTENT*/
+
+#text1{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    color: black;
+    overflow: scroll;
+    font-weight: bold;
+    font-family: inherit;
+    float: left;
+}
+
+#scrollImage{
+    background-color: grey;
+    float: left;
+    width: 25%;
+    height: inherit;
+}
+
+#text2{
+  background-color: white;
+    height: inherit;
+    width: 25%;
+    overflow: visible;
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+    float: left;  
+}
+
+#scrollImage2{
+    background-color: grey;
+    float: right;
+    width: 24%;
+    height: inherit;
+    overflow: hidden;
+    
+}
+
+
+    /*SECOND SCROLL BAR CONTENT*/
+
+#text3{
+    background-color: white;
+    height: inherit;
+    width: 25%;
+    overflow: visible;
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+    float: left;
+}
+
+#scrollImage3{
+    background-color: grey;
+    float: left;
+    width: 25%;
+    height: inherit;
+    overflow: hidden;
+}
+
+#text4{
+  background-color: white;
+    height: inherit;
+    width: 25%;
+    overflow: visible;
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+    float: left;  
+}
+
+#scrollImage4{
+    background-color: grey;
+    float: right;
+    width: 24%;
+    height: inherit;
+    overflow: hidden;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
